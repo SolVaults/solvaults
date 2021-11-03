@@ -1,39 +1,61 @@
 body {
 margin: 0;
 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing:grayscale;
-background-color:rgba(0,0,0,0.5); color:#ffffff; }
+background-color:rgba(0,0,0,.65); color:#000000; } 
 code {
 font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace}
-.App {
-        text-align:center
+.App { 
+	text-align:center
 }
 .MuiSvgIcon-root {
-        fill: #ffffff;
+	fill: #ffffff;
 }
 button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.sc-bdfBQB.kKVOCU.MuiButton-containedPrimary {
-        background-color: #000000;
-        border-radius: 90px;
-        color: #ffffff;
-        font-family: "Arial Black", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing:grayscale;
-        font-size: 15px;
-        position: fixed;
-        left: 45.5%;
-        top: 59%;
+	background-color: #000000;
+	border-radius: 90px;
+	color: #ffffff;
+	font-family: "Arial Black", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing:grayscale; 
+	font-size: 15px;
+	position: static;
+	text-align: center;
+	top: 65%;
+	z-index: 2;
 }
 button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.sc-hKgJUU.ekASJL {
-        background-color: #000000;
-        border-radius: 90px;
-        color: #ffffff;
-        font-family: "Arial Black", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing:grayscale;
-        font-size: 18px;
-        padding: 10px 50px;
-        position: fixed;
-        left: 45.5%;
-        top: 70%;
+	background-color: #000000;
+	border-radius: 90px;
+	color: #ffffff;
+	font-family: "Arial Black", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing:grayscale;
+	font-size: 18px;
+	padding: 10px 50px;
+	position: static;
+	text-align: center;
+	top: 70%; 
+	z-index: 2;
 }
 :root {
-        text-align: center;
-        position: fixed;
-        left: 45.5%;
-        top: 55%;
+	text-align: center;
+	position: fixed;
+	font-weight: bold;
+	width: 100%;
+	top: 55%;
+}
+
+.SolVaultsLogo {
+	z-index: -2;
+	position: fixed;
+	        width: 100%;
+			height: 100%;
+            margin: auto;
+			opacity: 0.5;
+	left: 0px;
+	top: 0px;
+}
+.SolVaultsLogoText {
+	z-index: -1;
+	position: fixed;
+	max-width: 50%;
+	max-height: 50%;
+	left: 25%;
+	top: 40%;
 }
